@@ -24,10 +24,12 @@ principal (MainActivity.java):
 
 La actividad mostrada en pantalla puede ser, además de la principal, los detalles de cada alojamiento, los filtros que se pueden aplicar 
 (son distintos por cada tipo de alojamiento), así como los mapas en los que se muestran todos los alojamientos de un determinado tipo.
+
 Los datos se descargan una vez se inicia la aplicación y al no esperarse cambios constantes, únicamente se vuelven a actualizar los 
 datos por acción del usuario al pulsar el botón “Sincronizar” (o al volver a entrar a la aplicación). Por esta razón hay un observador 
 (será un LiveData en cada ViewModel) sobre el estado de la aplicación para conocer si los datos están actualizados, están descargando 
 o ha ocurrido un error para, en base a esta información, notificar al usuario adecuadamente.
+
 Los fragmentos correspondientes a los distintos tipos de alojamientos obtienen los datos a través de un ViewModel, por lo que hay un 
 ViewModel por cada tipo de alojamiento. El ViewModel establece una conexión con el repositorio. El repositorio (Repository.java) es 
 un singleton en el que se almacena la información descargada y obtenida por el servicio web (WebService.java). Cada ViewModel pide al 
