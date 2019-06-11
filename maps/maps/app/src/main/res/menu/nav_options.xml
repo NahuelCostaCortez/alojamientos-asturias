@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <!--Single para seleccionar solo una opcion-->
+  <group
+      android:id="@+id/menu_casa"
+      android:checkableBehavior="single">
+    <item
+        android:id="@+id/menu_casas"
+        android:icon="@drawable/ic_casa"
+        android:title="@string/housing"
+        />
+
+    <item
+        android:id="@+id/menu_apartamento"
+        android:icon="@drawable/ic_apartamento"
+        android:title="@string/apartments"
+        />
+
+    <item
+        android:id="@+id/menu_hotel"
+        android:icon="@drawable/ic_hotel"
+        android:title="@string/hotels"
+        />
+
+    <!--<item
+        android:id="@+id/menu_vivienda"
+        android:icon="@drawable/ic_vivienda"
+        android:title="@string/households"
+        />-->
+
+    <item
+        android:id="@+id/menu_albergue"
+        android:icon="@drawable/ic_albergue"
+        android:title="@string/shelters"
+        />
+
+    <item
+        android:id="@+id/menu_camping"
+        android:icon="@drawable/ic_camping"
+        android:title="@string/campings"
+        />
+
+    <item
+        android:id="@+id/menu_hostal"
+        android:icon="@drawable/ic_hostal"
+        android:title="@string/hostels"
+        />
+  </group>
+
+
+  <!--Single para seleccionar solo una opcion-->
+  <group
+      android:id="@+id/menu_top"
+      android:checkableBehavior="single">
+    <item
+        android:id="@+id/menu_favoritos"
+        android:icon="@drawable/fav_icon"
+        android:title="@string/favs"
+        />
+  </group>
+
+  <group
+      android:checkableBehavior="single">
+    <item
+        android:id="@+id/menu_sincronizar"
+        android:icon="@drawable/icono_sync"
+        android:title="@string/sync"
+        />
+  </group>
+
+  <group
+      android:id="@+id/menu_bottom"
+      android:checkableBehavior="single">
+
+    <item android:id="@+id/menu_configuracion"
+        android:icon="@drawable/tools_icon"
+        android:title="@string/configuration"/>
+
+    <item android:id="@+id/menu_acerca_de"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/about"/>
+
+  </group>
+
+</menu>

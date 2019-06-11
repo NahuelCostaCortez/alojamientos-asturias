@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+  <LinearLayout
+      android:id="@+id/fragment_container"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      tools:context=".Activities.CasasDetailsActivity">
+
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar"></include>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ubication_lower_case"
+            android:textSize="20dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_ubicaciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type"
+            android:textSize="20dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_tipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"/>
+      </LinearLayout>
+
+
+      <TextView
+          android:id="@+id/textView3"
+          android:layout_marginTop="50dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="@string/services"
+          android:textSize="20dp"
+          />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+      <CheckBox
+          android:id="@+id/checkBox_wifi"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="14dp"
+          android:text="@string/wifi" />
+
+      <CheckBox
+          android:id="@+id/checkBox_chimenea"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="14dp"
+          android:text="@string/fireplace" />
+
+      <CheckBox
+          android:id="@+id/checkBox_calefaccion"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/heater" />
+
+      <CheckBox
+          android:id="@+id/checkBox_cafeteria"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/cafeteria" />
+
+      <CheckBox
+          android:id="@+id/checkBox_parking"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/parking" />
+
+      <CheckBox
+          android:id="@+id/checkBox_lavadora"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/washing_machine" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center">
+      <Button
+          android:id="@+id/button_limpiar"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="@string/clean" />
+      <Button
+          android:id="@+id/button_aceptar"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_gravity="center"
+          android:text="@string/aceptar" />
+    </LinearLayout>
+
+  </LinearLayout>
+</ScrollView>

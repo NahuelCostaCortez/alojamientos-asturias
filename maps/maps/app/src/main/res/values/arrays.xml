@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ubicaciones_array">
+        <item>@string/asturias_west</item>
+        <item>@string/asturias_east</item>
+        <item>@string/asturias_center</item>
+        <item>@string/Any</item>
+    </string-array>
+
+    <string-array name="abierto_todo_anio_array">
+        <item>@string/yes</item>
+        <item>No</item>
+        <item>@string/Any</item>
+    </string-array>
+
+    <string-array name="cambiar_vista">
+        <item>@string/grid</item>
+        <item>@string/card_list</item>
+    </string-array>
+
+    <string-array name="buscar_por">
+        <item>@string/name</item>
+        <item>@string/location</item>
+        <item>@string/zone</item>
+    </string-array>
+
+    <string-array name="ordenar_por">
+        <item>@string/alphabetically</item>
+        <item>@string/by_zone</item>
+        <item>@string/by_location</item>
+    </string-array>
+
+    <string-array name="tipo">
+        <item>@string/shelter</item>
+        <item>@string/hostel</item>
+        <item>@string/Any</item>
+    </string-array>
+
+    <string-array name="tipo2">
+        <item>@string/hostal</item>
+        <item>@string/board</item>
+        <item>@string/Any</item>
+    </string-array>
+
+</resources>

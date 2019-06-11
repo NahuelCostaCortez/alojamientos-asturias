@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#28292e</color>
+    <color name="colorPrimaryDark">#28292e</color>
+    <!--0000FF -->
+    <color name="colorAccent">#0000FF</color>
+
+    <color name="primaryTextColor_light">#F4F4F6</color>
+    <color name="secondaryTextColor_light">#96F4F4F6</color>
+    <color name="backgroundCardColor_light">#FFFF</color>
+    <color name="dividerColor_light">#F2F2F3</color>
+
+    <color name="primaryTextColor_night">#33343B</color>
+    <color name="secondaryTextColor_night">#8033343B</color>
+    <color name="backgroundCardColor_night">#28292e</color>
+    <color name="dividerColor_night">#28292e</color>
+
+    <color name="windowBackground_light">#F4F4F6</color>
+    <color name="windowBackground_night">#33343B</color>
+
+
+
+
+    <!-- AMBER Theme -->
+    <color name="primaryColorAmber">#FFC107</color>
+    <color name="primaryLightColorAmber">#FFECB3</color>
+    <color name="primaryDarkColorAmber">#FFA000</color>
+    <color name="secondaryColorAmber">#03A9F4</color>
+    <color name="secondaryLightColorAmber">#65c4ef</color>
+    <color name="secondaryDarkColorAmber">#1e87b6</color>
+    <color name="primaryTextColorAmber">#ffffff</color>
+    <color name="secondaryTextColorAmber">#000000</color>
+
+
+
+</resources>

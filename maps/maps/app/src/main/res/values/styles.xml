@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme2" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/secondaryTextColorAmber</item>
+        <item name="colorPrimaryDark">@color/backgroundCardColor_night</item>
+        <item name="colorAccent">@color/secondaryColorAmber</item>
+    </style>
+
+    <!-- Light base activity theme -->
+    <style name="ActivityTheme.Primary.Base.Light" parent="Theme.AppCompat.NoActionBar">
+        <item name="primaryTextColor">@color/primaryTextColor_light</item>
+        <item name="secondaryTextColor">@color/secondaryTextColor_light</item>
+        <item name="backgroundCardColor">@color/backgroundCardColor_light</item>
+        <item name="dividerColor">@color/dividerColor_light</item>
+    </style>
+    <!-- Dark base activity theme -->
+    <style name="ActivityTheme.Primary.Base.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="primaryTextColor">@color/primaryTextColor_night</item>
+        <item name="secondaryTextColor">@color/secondaryTextColor_night</item>
+        <item name="backgroundCardColor">@color/backgroundCardColor_night</item>
+        <item name="dividerColor">@color/dividerColor_night</item>
+    </style>
+
+    <!-- Specific Feed activity theme -->
+    <style name="FeedActivityThemeLight" parent="ActivityTheme.Primary.Base.Light">
+        <item name="android:windowBackground">@color/windowBackground_light</item>
+    </style>
+    <style name="FeedActivityThemeDark" parent="ActivityTheme.Primary.Base.Dark">
+        <item name="android:windowBackground">@color/windowBackground_night</item>
+    </style>
+
+    <style name="SplashScreen" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <style name="ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

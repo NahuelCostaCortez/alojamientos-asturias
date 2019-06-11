@@ -1,0 +1,27 @@
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory>
+
+        <ListPreference
+            android:key="update_language"
+            android:title="@string/language"
+            android:entries="@array/language_entries"
+            android:entryValues="@array/language_values"
+            android:summary="@string/current_language"
+            android:enabled="true"
+            />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="night_mode"
+            android:title="@string/night_mode" />
+
+        <Preference android:title="@string/restaurar"
+            android:key="reset_defaults"
+            android:summary=""/>
+
+    </PreferenceCategory>
+
+
+</androidx.preference.PreferenceScreen>
