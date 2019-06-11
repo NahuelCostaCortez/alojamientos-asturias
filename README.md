@@ -40,4 +40,5 @@ a los distintos tipos de alojamientos.
 ![](arquitectura_base.PNG)
 
 Vista principal de la app:
+
 ![](vista_principal.PNG)
